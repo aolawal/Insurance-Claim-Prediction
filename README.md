@@ -1,6 +1,10 @@
-# House Insurance-Claim-Prediction
+# Insurance Claim Prediction Using Building Characteristics
 
 ## Project Overview
+Insurance companies face significant financial risk due to unexpected claims. This project aims to build a predictive machine learning model that estimates the probability of a building having at least one insurance claim during its insured period based on building characteristics.
+
+The project follows a complete data science lifecycle, including data preprocessing, exploratory data analysis, modeling, and evaluation.
+
 ### Objective: 
 The project aims to build a predictive model to estimate the probability that a building will have at least one insurance claim during the insured period based on characteristics such as Building Dimension,
 Building Age, Date of Occupancy, Number of Windows, Year of Observation and other factors.
@@ -10,9 +14,16 @@ Claim = 1 → At least one claim
 Claim = 0 → No claim
 
 ### Dataset overview
+The dataset contains information about insured buildings, including:
+Building characteristics
+Location details
+Insurance duration
+Claim history
+
+Files used:
 In this project we will be working on 2 CSV files:
-1. Train_Data - contains the datasets that we will use to build, train and test our model
-2. Variable Description - Gives more details about content each of the features (columns)
+Train_data.csv – contains the datasets that we will use to build, train and test our model
+Variable Description.csv – metadata explaining each variable (Gives more details about content each of the features / columns)
 
 ## Methodology
 ## Data Preprocessing
@@ -49,6 +60,15 @@ Settlement (Urban vs Rural)
 Building size
 
 Correlation heatmap for numerical features
+
+### Tools & Technologies
+Python
+Pandas, NumPy
+Matplotlib, Seaborn
+Scikit-learn
+Jupyter Notebook
+GitHub
+Snipping Tool
 
 
 
